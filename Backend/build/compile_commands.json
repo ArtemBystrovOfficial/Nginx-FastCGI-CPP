@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/artem/Desktop/Hachathon/Backend/build",
+  "command": "/usr/bin/g++   -I/home/artem/Desktop/Hachathon/Backend/libraries/fcgi2/include -I/home/artem/Desktop/Hachathon/Backend/libraries/json-develop/include  -g   -std=gnu++2a -o CMakeFiles/main.dir/main.cpp.o -c /home/artem/Desktop/Hachathon/Backend/main.cpp",
+  "file": "/home/artem/Desktop/Hachathon/Backend/main.cpp"
+},
+{
+  "directory": "/home/artem/Desktop/Hachathon/Backend/build",
+  "command": "/usr/bin/g++   -I/home/artem/Desktop/Hachathon/Backend/libraries/fcgi2/include -I/home/artem/Desktop/Hachathon/Backend/libraries/json-develop/include  -g   -std=gnu++2a -o CMakeFiles/main.dir/Back_end_http_server.cpp.o -c /home/artem/Desktop/Hachathon/Backend/Back_end_http_server.cpp",
+  "file": "/home/artem/Desktop/Hachathon/Backend/Back_end_http_server.cpp"
+}
+]

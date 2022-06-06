@@ -1,0 +1,112 @@
+<html>
+    <head>
+		<style>
+      @font-face
+      {
+        	font-family: 'Athelas-Italic';
+        	src: url('fonts/Athelas-Italic.ttf') format('truetype');
+        	font-style: normal;
+        	font-weight: normal;
+      }
+			body
+			{
+        font-family: 'Athelas-Italic';
+        background: url("images/entrance.png");
+        background-position: center;
+        background-size:cover;
+				margin: 0;
+				font-family: monospace;
+        width: auto;
+        height: 100%;
+			}
+
+			.main
+			{
+        font-family: 'Athelas-Italic';
+				background: white;
+				border: 1px solid rgba(104,75,75);;
+				border-radius:10px;
+				padding :20px 50px 50px 50px;
+				width: 300px;
+				height: 150px;
+				margin: 250px 0 0 58%;
+        color: rgba(104,75,75);
+        position: absolute;
+			}
+
+			.main label:nth-child(1)
+			{
+				margin:0 0 0 22px;
+			}
+
+			input
+			{
+				border-radius:15px;
+				border: 1px solid rgba(104,75,75);
+        width: 200px;
+        margin-bottom: 10px;
+			}
+
+			button
+			{
+				width:100px;
+				height:30px;
+
+				background-color: #f6cda9;
+				border: 0px;
+				color:white;
+				margin:20px 0 0 30%;
+        border-radius: 15px;
+			}
+
+			button:hover
+			{
+				background-color: #f7c996;
+			}
+
+			.second_title a
+			{
+        font-family: 'Athelas-Italic';
+				font-size:30px;
+        color: #f6cda9;
+        text-decoration: underline;
+			}
+      .first_title a
+			{
+        font-family: 'Athelas-Italic';
+				font-size:30px;
+        color: rgba(104,75,75);
+			}
+      .first_title, .second_title{
+        display: inline;
+      }
+      span{
+        color: #f6cda9;
+      }
+      form{
+        margin-top: 30px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+
+		</style>
+        <meta charset="utf-8">
+		<title> SIGN UP </title>
+    </head>
+    <body>
+      <div class ="main">
+			<div class="first_title"><a href="login"> SIGN IN <span>/</span></a></div><div class="second_title"><a href="register">  SIGN UP </a></div>
+			<form method="get">
+
+				<label for="login">Login</label>
+				<input name="login"/>
+				<br/>
+				<label for="pass">Password</label>
+				<input name="pass"/>
+				<button> Sign up </button>
+			</form>
+		</div>
+	</body>
+</html>

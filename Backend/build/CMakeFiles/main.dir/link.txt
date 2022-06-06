@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Back_end_http_server.cpp.o  -o main   -L/etc/local/lib  -Wl,-rpath,/etc/local/lib -lfcgi -lfcgi++ 

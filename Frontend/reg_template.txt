@@ -1,0 +1,4 @@
+		<div class="login">
+			<a href = "register"> <div> Registration </div> </a>
+			<a href = "login"> <div> Login </div> </a>
+		</div>

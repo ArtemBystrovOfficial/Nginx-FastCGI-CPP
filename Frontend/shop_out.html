@@ -1,0 +1,162 @@
+<html>
+<style>
+@font-face
+{
+  	font-family: 'Snellroundhand_bold';
+  	src: url('fonts/snellroundhand_bold.otf') format('opentype');
+  	font-style: normal;
+  	font-weight: normal;
+}
+@font-face
+{
+  	font-family: 'Athelas-Italic';
+  	src: url('fonts/Athelas-Italic.ttf') format('truetype');
+  	font-style: normal;
+  	font-weight: normal;
+}
+	body
+	{
+			background:url("images/Hello.png") fixed;
+			background-size:cover;
+			margin: 0px;
+	}
+	.container
+	{
+		font-family: 'Athelas-Italic';
+		background: rgba(0,0,0,0.2);
+		border:1px solid rgba(0,0,0,0.1);
+		padding: 0 20px;
+		font-size:16px;
+		height:2400px;
+		justify-content: space-around;
+		margin: 0 auto;
+		width:400px;
+		display:flex;
+		flex-direction:column;
+	}
+
+	.container .item
+	{
+		flex-direction:column;
+	}
+	.item
+	{
+	overflow:hidden;
+		border-radius:20px;
+		background: -webkit-linear-gradient(135deg, rgb(223, 223, 223), rgb(249, 249, 249));
+		background: -moz-linear-gradient(135deg, rgb(223, 223, 223), rgb(249, 249, 249));
+		background: linear-gradient(135deg, rgb(223, 223, 223), rgb(249, 249, 249));
+		box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.2);
+		height:240px;
+		display: grid;
+		grid-template-columns: 50% 30% 20%;
+		grid-template-rows:70% 30%;
+	}
+	.item img
+	{
+		padding:20px;
+		width:80%;
+		 grid-column-start: 1;
+ 		 grid-column-end: 2;
+ 		 grid-row-start: 1;
+  	     grid-row-end: 2;
+	}
+
+	.item p
+	{
+		padding:10px;
+		 grid-column-start: 2;
+ 		 grid-column-end: 4;
+ 		 grid-row-start: 1;
+  	     grid-row-end: 2;
+	}
+
+	.item button
+	{
+		border:0px;
+		background-image: url("images/basket.png");
+		background-size:cover;
+		background-color: rgba(255,255,255,0.8);
+		border-radius:5px;
+		height:40px;
+		width:40px;
+		margin: 20px 0 0 300px;
+		 grid-column-start: 3;
+ 		 grid-column-end: 4;
+ 		 grid-row-start: 2;
+  	     grid-row-end: 3;
+	}
+	.item button:hover
+	{
+		background-color: rgba(0,0,0,0.1);
+	}
+	a
+	{
+		text-decoration:none;
+		color:black;
+	}
+	.menu
+	{
+		font-family: 'Athelas-Italic';
+		font-size:15px;
+		flex-direction:column;
+		position:fixed;
+		left:520px;
+		display:flex;
+		height:500px;
+		justify-content:space-around;
+	}
+	.menu div
+	{
+		
+		background: rgba(255,255,255,0.9);
+		box-shadow: 2px 2px 5px 4px rgba(0,0,0,0.2);
+		text-align:center;
+		border-radius:7px;
+		width:100px;
+		padding:20px;
+
+	}
+</style>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<div class="menu">
+	<a href="main"><div> Home
+	</div></a>
+	<a href="shop"><div> Range
+	</div></a>
+	<a href="shop"><div> Cupcakes
+	</div></a>
+	<a href="shop"><div> Cakes
+	</div></a>
+	<a href="shop"><div> Cookies
+	</div></a>
+	<a href="shop"><div> Donuts
+	</div></a>
+	<a href="shop"><div> Drinks
+	</div></a>
+</div>
+<div class="container">
+	<div class="port_1">
+<div class="item"> 	<img src="products/images/prod_1.jpg" alt="no-photo"/>	<p> Шпинатный панкейк с вишневым кремом 6 шт. </p>	<form method="get" >	<input type="hidden" name="num" value="1"/>			<button> </button> 	</form></div>		</div>
+	<div class="port_2">
+<div class="item"> 	<img src="products/images/prod_2.jpg" alt="no-photo"/>	<p> Шпинатный панкейк с апельсиновым кремом 6 шт. </p>	<form method="get" >	<input type="hidden" name="num" value="1"/>			<button> </button> 	</form></div>		</div>
+	<div class="port_3">
+<div class="item"> 	<img src="products/images/prod_3.jpg" alt="no-photo"/>	<p> Панкейк с вишневым кремом 6 шт. </p>	<form method="get" >	<input type="hidden" name="num" value="1"/>			<button> </button> 	</form></div>		</div>
+	<div class="port_4">
+<div class="item"> 	<img src="products/images/prod_4.jpg" alt="no-photo"/>	<p> Панкейк с апельсиновым кремом 6 шт. </p>	<form method="get" >	<input type="hidden" name="num" value="1"/>			<button> </button> 	</form></div>		</div>
+	<div class="port_5">
+<div class="item"> 	<img src="products/images/prod_5.png" alt="no-photo"/>	<p> Описание </p>	<form method="get" >	<input type="hidden" name="num" value="5"/>			<button> </button> 	</form></div>		</div>
+	<div class="port_6">
+<div class="item"> 	<img src="products/images/prod_6.png" alt="no-photo"/>	<p> Описание </p>	<form method="get" >	<input type="hidden" name="num" value="6"/>			<button> </button> 	</form></div>		</div>
+	<div class="port_7">
+<div class="item"> 	<img src="products/images/prod_7.png" alt="no-photo"/>	<p> Описание </p>	<form method="get" >	<input type="hidden" name="num" value="7"/>			<button> </button> 	</form></div>		</div>
+	<div class="port_8">
+<div class="item"> 	<img src="products/images/prod_8.png" alt="no-photo"/>	<p> Описание </p>	<form method="get" >	<input type="hidden" name="num" value="8"/>			<button> </button> 	</form></div>		</div>
+	<div class="port_9">
+<div class="item"> 	<img src="products/images/prod_9.png" alt="no-photo"/>	<p> Описание </p>	<form method="get" >	<input type="hidden" name="num" value="9"/>			<button> </button> 	</form></div>		</div>
+</div>
+</body>
+</html>

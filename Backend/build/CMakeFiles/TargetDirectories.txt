@@ -1,0 +1,5 @@
+/home/artem/Desktop/Hachathon/Backend/build/CMakeFiles/edit_cache.dir
+/home/artem/Desktop/Hachathon/Backend/build/CMakeFiles/package_source.dir
+/home/artem/Desktop/Hachathon/Backend/build/CMakeFiles/rebuild_cache.dir
+/home/artem/Desktop/Hachathon/Backend/build/CMakeFiles/package.dir
+/home/artem/Desktop/Hachathon/Backend/build/CMakeFiles/main.dir

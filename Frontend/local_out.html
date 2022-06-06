@@ -1,0 +1,161 @@
+<html>
+<style>
+	body
+	{
+			background: #222;
+			margin: 0px;
+	}
+	.container
+	{
+		background: rgba(0,0,0,0.2);
+		border:1px solid rgba(0,0,0,0.1);
+		padding: 0 20px;
+		font-family:monospace;
+		font-size:16px;
+		height:2400px;
+		justify-content: space-around;
+		margin: 0 auto;
+		width:400px;
+		display:flex;
+		flex-direction:column;		
+	}
+	
+	.container .item
+	{
+		flex-direction:column;		
+	}
+	.item 
+	{
+	overflow:hidden;
+		border-radius:20px;
+		background: -webkit-linear-gradient(135deg, rgb(223, 223, 223), rgb(249, 249, 249));
+		background: -moz-linear-gradient(135deg, rgb(223, 223, 223), rgb(249, 249, 249));
+		background: linear-gradient(135deg, rgb(223, 223, 223), rgb(249, 249, 249));
+		box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.2);
+		height:240px;
+		display: grid;
+		grid-template-columns: 50% 30% 20%;
+		grid-template-rows:70% 30%;
+	}
+	.item img
+	{
+		padding:20px;
+		width:80%;
+		 grid-column-start: 1;
+ 		 grid-column-end: 2;
+ 		 grid-row-start: 1;
+  	     grid-row-end: 2;
+	}
+	
+	.item p
+	{
+		padding:10px;
+		 grid-column-start: 2;
+ 		 grid-column-end: 4;
+ 		 grid-row-start: 1;
+  	     grid-row-end: 2;
+	}
+	
+	.item button
+	{
+		visibility:hidden;
+		border:0px;
+		background-image: url("images/basket.png");
+		background-size:cover;
+		background-color: rgba(255,255,255,0.8);
+		border-radius:5px;
+		height:40px;
+		width:40px;
+		margin: 20px 0 0 300px;
+		 grid-column-start: 3;
+ 		 grid-column-end: 4;
+ 		 grid-row-start: 2;
+  	     grid-row-end: 3;
+	}
+	.item button:hover
+	{
+		background-color: rgba(0,0,0,0.1);
+	}
+	a
+	{
+		text-decoration:none;
+		color:black;
+	}
+	.menu
+	{
+		font-family: monospace;
+		font-size:15px;
+		flex-direction:column;	
+		position:fixed;
+		top:30%;
+		left:20%;
+		display:flex;
+		height:300px;
+		justify-content:space-around;
+	}
+	.menu div
+	{
+		background: rgba(255,255,255,0.8);
+		box-shadow: 2px 2px 5px 4px rgba(0,0,0,0.2);
+		text-align:center;
+		border-radius:7px;
+		width:100px;
+		padding:5px 20px;
+		
+	}
+	
+	.menu a:nth-child(4)
+	{
+		background: rgba(0,255,0,0.5);
+		border-radius:7px;
+	}
+	
+	.menu a:nth-child(3)
+	{
+		background: rgba(255,255,0,0.5);
+		border-radius:7px;
+	}
+	
+	.menu a:nth-child(2)
+	{
+		background: rgba(255,0,0,0.5);
+		border-radius:7px;
+	}
+</style>
+<head>
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta charset="utf-8">
+</head>
+<body>
+<div class="menu">
+	<a href="main"><div> Домой
+	</div></a>	
+	<a href="exit"><div> Выход из аккаунта
+	</div></a>	
+	<a href="dilivery"><div> Пункты самовывоза
+	</div></a>	
+	<a href="send"><div> Заказать из корзины
+	</div></a>	
+</div>
+<div class="container">
+	<div class="port_1">
+<div class="item"> 	<img src="products/images/prod_3.jpg" alt="no-photo"/>	<p> Панкейк с вишневым кремом 6 шт. </p>	<form method="get" >	<input type="hidden" name="num" value="1"/>			<button> </button> 	</form></div>		</div>
+        <div class="port_2">
+<div class="item"> 	<img src="products/images/prod_6.png" alt="no-photo"/>	<p> Описание </p>	<form method="get" >	<input type="hidden" name="num" value="6"/>			<button> </button> 	</form></div>	        </div>
+        <div class="port_3">
+<div class="item"> 	<img src="products/images/prod_8.png" alt="no-photo"/>	<p> Описание </p>	<form method="get" >	<input type="hidden" name="num" value="8"/>			<button> </button> 	</form></div>	        </div>
+        <div class="port_4">
+        </div>
+        <div class="port_5">
+        </div>
+        <div class="port_6">
+        </div>
+        <div class="port_7">
+        </div>
+        <div class="port_8">
+        </div>
+        <div class="port_9">
+        </div>
+</div>
+</body>
+</html>

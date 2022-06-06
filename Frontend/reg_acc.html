@@ -1,0 +1,106 @@
+<html>
+    <head>
+		<style>
+      @font-face
+      {
+          font-family: 'Athelas-Italic';
+          src: url('fonts/Athelas-Italic.ttf') format('truetype');
+          font-style: normal;
+          font-weight: normal;
+      }
+      body
+      {
+        font-family: 'Athelas-Italic';
+        background: url("images/entrance.png");
+        backdrop-filter: blur(10px);
+        background-position: center;
+        background-size:cover;
+        margin: 0;
+        font-family: monospace;
+        width: auto;
+        height: 100%;
+      }
+
+			.main
+			{
+        font-family: 'Athelas-Italic';
+				background: rgba(250,250,250);
+				border: 1px solid rgba(104,75,75);;
+				border-radius:10px;
+				padding : 0 60px 100px 60px;
+				width: 300px;
+				height: 165px;
+				margin: 50px 0 0 33%;
+        position: absolute;
+			}
+
+			.main label:nth-child(1)
+			{
+				margin:0 0 0 22px;
+			}
+      .main p{
+        color: rgba(104,75,75);
+        font-size: 18pt;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+			input
+			{
+				border-radius:15px;
+				border: 0px;
+			}
+
+			button
+			{
+        width:100px;
+        height:30px;
+        font-size: 10pt;
+				background-color: #f6cda9;
+				border: 0px;
+				color:white;
+				margin:5px 0 0 0;
+        border-radius: 10px;
+			}
+
+			button:hover
+			{
+				background-color: #f7c996;
+			}
+
+			.title
+			{
+        text-align: center;
+        color: rgba(104,75,75);
+        font-family: 'Athelas-Italic';
+        margin-top: 30px;
+				font-size:30px;
+        /* position: absolute; */
+        /* margin-left: 41.5%; */
+			}
+      .success{
+        width: 420px;
+        height: 40px;
+        /* margin-top: 50px; */
+        background: url("images/kiwi.jpeg");
+        background-position: center;
+        background-size:cover;
+        /* position: absolute; */
+        margin-left: -60px;
+        /* border-top-left-radius: 20px;
+        border-top-right-radius: 20px; */
+      }
+
+		</style>
+        <meta charset="utf-8">
+		<title> SIGN UP </title>
+    </head>
+    <body>
+      <div class ="main">
+      <div class="success"></div>
+			<div class="title"> Congratulations! </div>
+
+      <p>You have successfully registered on our website. Welcome, new customer!</p>
+			<center><a href="main"> <button> Continue </button> </a></center>
+		</div>
+	</body>
+</html>
